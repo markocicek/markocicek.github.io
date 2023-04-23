@@ -1,152 +1,220 @@
 <!DOCTYPE html>
-<html style="font-size: 16px;" lang="en"><head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <title>Markov-drugi-izbor</title>
-    <link rel="stylesheet" href="nicepage.css" media="screen">
-<link rel="stylesheet" href="Markov-drugi-izbor.css" media="screen">
-    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
-    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
-    <meta name="generator" content="Nicepage 5.8.13, nicepage.com">
-    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
-    
-    
-    
-    
-    <script type="application/ld+json">{
+<html style="font-size: 16px;" lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <title>Markov-drugi-izbor</title>
+  <link rel="stylesheet" href="nicepage.css" media="screen">
+  <link rel="stylesheet" href="Markov-drugi-izbor.css" media="screen">
+  <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
+  <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+  <meta name="generator" content="Nicepage 5.8.13, nicepage.com">
+  <link id="u-theme-google-font" rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+
+
+
+
+  <script type="application/ld+json">{
 		"@context": "http://schema.org",
 		"@type": "Organization",
 		"name": ""
 }</script>
-    <meta name="theme-color" content="#4344e5">
-    <meta property="og:title" content="Markov-drugi-izbor">
-    <meta property="og:type" content="website">
-  <meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
-  <body class="u-body u-xl-mode" data-lang="en"><header class="u-clearfix u-header" id="sec-e89e"><div class="u-clearfix u-sheet u-sheet-1">
-        <div class="u-container-style u-group u-shape-rectangle u-group-1">
-          <div class="u-container-layout u-valign-middle">
-            <nav class="u-menu u-menu-one-level u-offcanvas u-menu-1">
-              <div class="menu-collapse" style="font-size: 1.25rem; letter-spacing: 0px; font-weight: 700;">
-                <a class="u-button-style u-custom-active-border-color u-custom-active-color u-custom-border u-custom-border-color u-custom-border-radius u-custom-borders u-custom-color u-custom-hover-border-color u-custom-hover-color u-custom-left-right-menu-spacing u-custom-text-active-color u-custom-text-color u-custom-text-decoration u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-nav-link" href="#">
-                  <svg class="u-svg-link" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-88bf"></use></svg>
-                  <svg class="u-svg-content" version="1.1" id="svg-88bf" viewBox="0 0 16 16" x="0px" y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"><g><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
-</g></svg>
-                </a>
-              </div>
-              <div class="u-custom-menu u-nav-container">
-                <ul class="u-nav u-spacing-20 u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-border-2 u-border-active-palette-1-base u-border-grey-75 u-border-hover-palette-1-base u-button-style u-custom-color-2 u-nav-link u-radius-50 u-text-active-palette-1-base u-text-grey-90 u-text-hover-palette-2-light-1" href="Home.html" style="padding: 16px 56px;">Početna</a>
-</li><li class="u-nav-item"><a class="u-border-2 u-border-active-palette-1-base u-border-grey-75 u-border-hover-palette-1-base u-button-style u-custom-color-2 u-nav-link u-radius-50 u-text-active-palette-1-base u-text-grey-90 u-text-hover-palette-2-light-1" href="Markov-drugi-izbor.html" style="padding: 16px 56px;">Markov drugi izbor</a>
-</li><li class="u-nav-item"><a class="u-border-2 u-border-active-palette-1-base u-border-grey-75 u-border-hover-palette-1-base u-button-style u-custom-color-2 u-nav-link u-radius-50 u-text-active-palette-1-base u-text-grey-90 u-text-hover-palette-2-light-1" href="Ilijin-drugi-izbor.html" style="padding: 16px 56px;">Ilijin drugi izbor</a>
-</li></ul>
-              </div>
-              <div class="u-custom-menu u-nav-container-collapse">
-                <div class="u-black u-container-style u-expanded-width u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
-                  <div class="u-inner-container-layout u-sidenav-overflow">
-                    <div class="u-expanded u-menu-close"></div>
-                    <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Home.html">Početna</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Markov-drugi-izbor.html">Markov drugi izbor</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Ilijin-drugi-izbor.html">Ilijin drugi izbor</a>
-</li></ul>
-                  </div>
+  <meta name="theme-color" content="#4344e5">
+  <meta property="og:title" content="Markov-drugi-izbor">
+  <meta property="og:type" content="website">
+  <meta data-intl-tel-input-cdn-path="intlTelInput/">
+</head>
+
+<body class="u-body u-xl-mode" data-lang="en">
+  <header class="u-clearfix u-header" id="sec-e89e">
+    <div class="u-clearfix u-sheet u-sheet-1">
+      <div class="u-container-style u-group u-shape-rectangle u-group-1">
+        <div class="u-container-layout u-valign-middle">
+          <nav class="u-menu u-menu-one-level u-offcanvas u-menu-1">
+            <div class="menu-collapse" style="font-size: 1.25rem; letter-spacing: 0px; font-weight: 700;">
+              <a class="u-button-style u-custom-active-border-color u-custom-active-color u-custom-border u-custom-border-color u-custom-border-radius u-custom-borders u-custom-color u-custom-hover-border-color u-custom-hover-color u-custom-left-right-menu-spacing u-custom-text-active-color u-custom-text-color u-custom-text-decoration u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-nav-link"
+                href="#">
+                <svg class="u-svg-link" viewBox="0 0 24 24">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-88bf"></use>
+                </svg>
+                <svg class="u-svg-content" version="1.1" id="svg-88bf" viewBox="0 0 16 16" x="0px" y="0px"
+                  xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+                  <g>
+                    <rect y="1" width="16" height="2"></rect>
+                    <rect y="7" width="16" height="2"></rect>
+                    <rect y="13" width="16" height="2"></rect>
+                  </g>
+                </svg>
+              </a>
+            </div>
+            <div class="u-custom-menu u-nav-container">
+              <ul class="u-nav u-spacing-20 u-unstyled u-nav-1">
+                <li class="u-nav-item"><a
+                    class="u-border-2 u-border-active-palette-1-base u-border-grey-75 u-border-hover-palette-1-base u-button-style u-custom-color-2 u-nav-link u-radius-50 u-text-active-palette-1-base u-text-grey-90 u-text-hover-palette-2-light-1"
+                    href="Home.html" style="padding: 16px 56px;">Početna</a>
+                </li>
+                <li class="u-nav-item"><a
+                    class="u-border-2 u-border-active-palette-1-base u-border-grey-75 u-border-hover-palette-1-base u-button-style u-custom-color-2 u-nav-link u-radius-50 u-text-active-palette-1-base u-text-grey-90 u-text-hover-palette-2-light-1"
+                    href="Markov-drugi-izbor.html" style="padding: 16px 56px;">Markov drugi izbor</a>
+                </li>
+                <li class="u-nav-item"><a
+                    class="u-border-2 u-border-active-palette-1-base u-border-grey-75 u-border-hover-palette-1-base u-button-style u-custom-color-2 u-nav-link u-radius-50 u-text-active-palette-1-base u-text-grey-90 u-text-hover-palette-2-light-1"
+                    href="Ilijin-drugi-izbor.html" style="padding: 16px 56px;">Ilijin drugi izbor</a>
+                </li>
+              </ul>
+            </div>
+            <div class="u-custom-menu u-nav-container-collapse">
+              <div
+                class="u-black u-container-style u-expanded-width u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+                <div class="u-inner-container-layout u-sidenav-overflow">
+                  <div class="u-expanded u-menu-close"></div>
+                  <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2">
+                    <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Home.html">Početna</a>
+                    </li>
+                    <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Markov-drugi-izbor.html">Markov
+                        drugi izbor</a>
+                    </li>
+                    <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Ilijin-drugi-izbor.html">Ilijin
+                        drugi izbor</a>
+                    </li>
+                  </ul>
                 </div>
-                <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
               </div>
-            </nav>
-          </div>
+              <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+            </div>
+          </nav>
         </div>
-      </div></header>
-    <section class="u-clearfix u-gradient u-section-1" id="sec-8eb4">
-      <div class="u-clearfix u-sheet u-sheet-1">
-        <div class="u-clearfix u-expanded-width u-gutter-10 u-layout-wrap u-layout-wrap-1">
-          <div class="u-layout" style="">
-            <div class="u-layout-row" style="">
-              <div class="u-container-style u-layout-cell u-left-cell u-size-30 u-size-xs-60 u-layout-cell-1" src="">
-                <div class="u-container-layout u-container-layout-1">
-                  <h3 class="u-align-center u-text u-text-default u-text-1">Rukomet</h3>
-                  <p class="u-align-justify u-text u-text-2"> Rukomet je ekipni sport s loptom, u kojem se natječu dvije momčadi sa 7 igrača na svakoj strani. Osnovni cilj igre jest loptom pogoditi označeni prostor gola. Lopta se između igrača dodaje rukama slično kao u košarci, ali s nešto manjom loptom te uz drugačija pravila vođenja lopte.&nbsp;<br>
-                    <br>
-                    <br>
-                  </p>
-                  <a href="https://hr.wikipedia.org/wiki/Rukomet" class="u-btn u-btn-round u-button-style u-radius-50 u-btn-1" target="_blank">Više o rukometu</a>
-                </div>
+      </div>
+    </div>
+  </header>
+  <section class="u-clearfix u-gradient u-section-1" id="sec-8eb4">
+    <div class="u-clearfix u-sheet u-sheet-1">
+      <div class="u-clearfix u-expanded-width u-gutter-10 u-layout-wrap u-layout-wrap-1">
+        <div class="u-layout" style="">
+          <div class="u-layout-row" style="">
+            <div class="u-container-style u-layout-cell u-left-cell u-size-30 u-size-xs-60 u-layout-cell-1" src="">
+              <div class="u-container-layout u-container-layout-1">
+                <h3 class="u-align-center u-text u-text-default u-text-1">Rukomet</h3>
+                <p class="u-align-justify u-text u-text-2"> Rukomet je ekipni sport s loptom, u kojem se natječu dvije
+                  momčadi sa 7 igrača na svakoj strani. Osnovni cilj igre jest loptom pogoditi označeni prostor gola.
+                  Lopta se između igrača dodaje rukama slično kao u košarci, ali s nešto manjom loptom te uz drugačija
+                  pravila vođenja lopte.&nbsp;<br>
+                  <br>
+                  <br>
+                </p>
+                <a href="https://hr.wikipedia.org/wiki/Rukomet"
+                  class="u-btn u-btn-round u-button-style u-radius-50 u-btn-1" target="_blank">Više o rukometu</a>
               </div>
-              <div class="u-align-center u-container-style u-layout-cell u-right-cell u-size-30 u-size-xs-60 u-layout-cell-2" src="">
-                <div class="u-container-layout u-valign-middle u-container-layout-2" src="">
-                  <img class="u-expanded-width u-image u-image-round u-radius-25 u-image-1" src="images/824bc099e228220e201bb8cd115e80b441ba8b15e91a94a767978e4209089a452526e0cfc70f64f8b41e800509d0de2e9a5485b65c1faab430f7ee_1280.jpg" data-image-width="1280" data-image-height="853">
-                </div>
+            </div>
+            <div
+              class="u-align-center u-container-style u-layout-cell u-right-cell u-size-30 u-size-xs-60 u-layout-cell-2"
+              src="">
+              <div class="u-container-layout u-valign-middle u-container-layout-2" src="">
+                <img class="u-expanded-width u-image u-image-round u-radius-25 u-image-1"
+                  src="images/824bc099e228220e201bb8cd115e80b441ba8b15e91a94a767978e4209089a452526e0cfc70f64f8b41e800509d0de2e9a5485b65c1faab430f7ee_1280.jpg"
+                  data-image-width="1280" data-image-height="853">
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <section class="u-clearfix u-custom-color-5 u-section-2" id="sec-d26c">
-      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
-        <h3 class="u-text u-text-1">Pravila rukometa</h3>
-        <p class="u-align-justify u-text u-text-2"> Cilj igre je loptom pogoditi gol, tj. postići pogodak i imati bolji rezultat od protivničke ekipe. Igra se po dva poluvremena od 30 ili 20 minuta (ovisno o dobi igrača), i momčad koja postigne više golova je pobjednik. Igrači smiju rukama dodirivati loptu i dodavati se međusobno, kao i šutirati prema golu. Svaki igrač smije napraviti do tri koraka držeći loptu u ruci, dok za svaki sljedeći korak m&nbsp;<br>
-          <br>Svi igrači se slobodno kreću po cijelom terenu, osim u prostoru 6 m ispred oba gola. U tom prostoru smije stajati samo po jedan član obrambene momčadi koji se naziva vratar (golman). Ostali igrači smiju iznad prostora od 6 m loptu pokušati uhvatiti ili dodati samo u skoku, dakle za vrijeme leta.<br>
-          <br>Dvije osnovne faze igre za svaku momčad su faza napada i faza obrane. U fazi napada igrači najčešće koriste formaciju s dva bočna igrača (lijevo i desno krilo), tri vanjska igrača (lijevi vanjski, srednji vanjski i desni vanjski) te pivot ili centar. U obrani se koristi nekoliko različitih varijanti, koje označavaju način postavljanja tj formacije obrambenih igrača ispred svog prostora od 6 m. ​Tako se recimo koriste obrana 6-0 (šesti igrača u ravnini ispred crte od 6 m), zatim 5-1 (pet igrača u liniji te jedan ispred njih koji pokušava ometati organizatora igre protivničke momčadi), zatim 4-2 a rjeđe se koristi i formacija 3-2-1. Momčad u napadu će ovisno o formaciji obrane pokušati naći način da dođu što bliže golu u što povoljniju poziciju za šut na gol.<br>
-          <br>Obrambeni igrači smiju do određene mjere ometati napadače u pokušaju dodavanja lopte ili šuta na gol. Ako se pri tome služe udarcima ili grubim potezanjem protivnika jedan od dva suca će dosuditi prekršaj. Za izrazito grube prekršaje može se dobiti kazna žutog ili crvenog kartona, isključenja na dvije minute ili trajnog isključenja iz igre. Kod isključenja na dvije minute momčad nema pravo zamjene isključenog igrača za vrijeme trajanja kazne. Prekršaj se izvodi s mjesta gdje je počinjen osim u dva slučaja:<br>
-        </p>
-        <ul class="u-align-justify u-text u-text-3">
-          <li> ako je prekršaj napravljen u zoni deveterca a pri tom nije bilo izrazite prilike za postizanje gola, dosuđuje se tzv. deveterac, koji se izvodi s isprekidane crte deveterca na mjestu najbliže prekršaju</li>
-          <li>ako je prekršaj bio u zoni oko 6 m i to u trenutku izrazite šanse za postizanje pogotka (već upućen šut ili igrač koji je slobodan u izglednoj poziciji za šut na gol) dosuđuje se kazneni udarac sedmerac. Kod izvođenja sedmerca svi obrambeni igrači moraju stajati iza prostora deveterca, a jedan napadač upućuje izravni udarac na gol s pozicije sedam metara. </li>
-        </ul>
-        <p class="u-align-justify u-text u-text-4"> Rukomet se danas igra u muškoj i ženskoj konkurenciji, te u različitim dobnim skupinama. Rukomet je i standardni olim​pijski šport, u programu Igara neprekidno od Igara u Münchenu 1972. godine do danas.</p>
-      </div>
-    </section>
-    <section class="u-clearfix u-gradient u-section-3" id="sec-ba1f">
-      <div class="u-clearfix u-sheet u-sheet-1">
-        <div class="u-clearfix u-gutter-30 u-layout-wrap u-layout-wrap-1">
-          <div class="u-layout">
-            <div class="u-layout-row">
-              <div class="u-align-left u-container-style u-layout-cell u-left-cell u-size-30 u-layout-cell-1">
-                <div class="u-container-layout u-container-layout-1">
-                  <div class="u-align-left u-border-2 u-border-grey-75 u-video u-video-1">
-                    <div class="embed-responsive embed-responsive-1">
-                      <iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" class="embed-responsive-item" src="https://www.youtube.com/embed/UovdZ7XB-j0?mute=1&amp;showinfo=0&amp;controls=0&amp;start=0" frameborder="0" allowfullscreen=""></iframe>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="u-align-left u-container-style u-layout-cell u-size-30 u-layout-cell-2">
-                <div class="u-container-layout u-container-layout-2">
-                  <div class="u-align-left u-border-2 u-border-grey-75 u-video u-video-2">
-                    <div class="embed-responsive embed-responsive-2">
-                      <iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" class="embed-responsive-item" src="https://www.youtube.com/embed/ucBmtyyeSvg?mute=0&amp;showinfo=0&amp;controls=0&amp;start=0" frameborder="0" allowfullscreen=""></iframe>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    
-    
-    <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-07a4"><div class="u-clearfix u-sheet u-sheet-1">
-        <p class="u-text u-text-1">Web stranica izrađena za vrijeme pohađanja</p>
-        <p class="u-text u-text-2">
-          <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-1" href="https://www.ferit.unios.hr/" target="_blank">Fakulteta elektrotehnike, računarstva i informacijskih tehnologija</a>
-        </p>
-        <p class="u-text u-text-3">u Osijeku u sklopu kolegija</p>
-        <p class="u-text u-text-4">
-          <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-2" href="https://www.ferit.unios.hr/upisi-i-studijski-programi/preddiplomski-strucni-studij#racunarstvo#SR601" target="_blank">Multimedijska tehnika</a>
-        </p>
-      </div></footer>
-    <section class="u-backlink u-clearfix u-grey-80">
-      <a class="u-link" href="https://nicepage.com/website-templates" target="_blank">
-        <span>Website Templates</span>
-      </a>
-      <p class="u-text">
-        <span>created with</span>
+    </div>
+  </section>
+  <section class="u-clearfix u-custom-color-5 u-section-2" id="sec-d26c">
+    <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+      <h3 class="u-text u-text-1">Pravila rukometa</h3>
+      <p class="u-align-justify u-text u-text-2"> Cilj igre je loptom pogoditi gol, tj. postići pogodak i imati bolji
+        rezultat od protivničke ekipe. Igra se po dva poluvremena od 30 ili 20 minuta (ovisno o dobi igrača), i momčad
+        koja postigne više golova je pobjednik. Igrači smiju rukama dodirivati loptu i dodavati se međusobno, kao i
+        šutirati prema golu. Svaki igrač smije napraviti do tri koraka držeći loptu u ruci, dok za svaki sljedeći korak
+        m&nbsp;<br>
+        <br>Svi igrači se slobodno kreću po cijelom terenu, osim u prostoru 6 m ispred oba gola. U tom prostoru smije
+        stajati samo po jedan član obrambene momčadi koji se naziva vratar (golman). Ostali igrači smiju iznad prostora
+        od 6 m loptu pokušati uhvatiti ili dodati samo u skoku, dakle za vrijeme leta.<br>
+        <br>Dvije osnovne faze igre za svaku momčad su faza napada i faza obrane. U fazi napada igrači najčešće koriste
+        formaciju s dva bočna igrača (lijevo i desno krilo), tri vanjska igrača (lijevi vanjski, srednji vanjski i desni
+        vanjski) te pivot ili centar. U obrani se koristi nekoliko različitih varijanti, koje označavaju način
+        postavljanja tj formacije obrambenih igrača ispred svog prostora od 6 m. ​Tako se recimo koriste obrana 6-0
+        (šesti igrača u ravnini ispred crte od 6 m), zatim 5-1 (pet igrača u liniji te jedan ispred njih koji pokušava
+        ometati organizatora igre protivničke momčadi), zatim 4-2 a rjeđe se koristi i formacija 3-2-1. Momčad u napadu
+        će ovisno o formaciji obrane pokušati naći način da dođu što bliže golu u što povoljniju poziciju za šut na
+        gol.<br>
+        <br>Obrambeni igrači smiju do određene mjere ometati napadače u pokušaju dodavanja lopte ili šuta na gol. Ako se
+        pri tome služe udarcima ili grubim potezanjem protivnika jedan od dva suca će dosuditi prekršaj. Za izrazito
+        grube prekršaje može se dobiti kazna žutog ili crvenog kartona, isključenja na dvije minute ili trajnog
+        isključenja iz igre. Kod isključenja na dvije minute momčad nema pravo zamjene isključenog igrača za vrijeme
+        trajanja kazne. Prekršaj se izvodi s mjesta gdje je počinjen osim u dva slučaja:<br>
       </p>
-      <a class="u-link" href="" target="_blank">
-        <span>Website Builder Software</span>
-      </a>. 
-    </section>
-  
-</body></html>
+      <ul class="u-align-justify u-text u-text-3">
+        <li> ako je prekršaj napravljen u zoni deveterca a pri tom nije bilo izrazite prilike za postizanje gola,
+          dosuđuje se tzv. deveterac, koji se izvodi s isprekidane crte deveterca na mjestu najbliže prekršaju</li>
+        <li>ako je prekršaj bio u zoni oko 6 m i to u trenutku izrazite šanse za postizanje pogotka (već upućen šut ili
+          igrač koji je slobodan u izglednoj poziciji za šut na gol) dosuđuje se kazneni udarac sedmerac. Kod izvođenja
+          sedmerca svi obrambeni igrači moraju stajati iza prostora deveterca, a jedan napadač upućuje izravni udarac na
+          gol s pozicije sedam metara. </li>
+      </ul>
+      <p class="u-align-justify u-text u-text-4"> Rukomet se danas igra u muškoj i ženskoj konkurenciji, te u različitim
+        dobnim skupinama. Rukomet je i standardni olim​pijski šport, u programu Igara neprekidno od Igara u Münchenu
+        1972. godine do danas.</p>
+    </div>
+  </section>
+  <section class="u-clearfix u-gradient u-section-3" id="sec-ba1f">
+    <div class="u-clearfix u-sheet u-sheet-1">
+      <div class="u-clearfix u-gutter-30 u-layout-wrap u-layout-wrap-1">
+        <div class="u-layout">
+          <div class="u-layout-row">
+            <div class="u-align-left u-container-style u-layout-cell u-left-cell u-size-30 u-layout-cell-1">
+              <div class="u-container-layout u-container-layout-1">
+                <div class="u-align-left u-border-2 u-border-grey-75 u-video u-video-1">
+                  <div class="embed-responsive embed-responsive-1">
+                    <iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;"
+                      class="embed-responsive-item"
+                      src="https://www.youtube.com/embed/UovdZ7XB-j0?mute=1&amp;showinfo=0&amp;controls=0&amp;start=0"
+                      frameborder="0" allowfullscreen=""></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="u-align-left u-container-style u-layout-cell u-size-30 u-layout-cell-2">
+              <div class="u-container-layout u-container-layout-2">
+                <div class="u-align-left u-border-2 u-border-grey-75 u-video u-video-2">
+                  <div class="embed-responsive embed-responsive-2">
+                    <iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;"
+                      class="embed-responsive-item"
+                      src="https://www.youtube.com/embed/ucBmtyyeSvg?mute=0&amp;showinfo=0&amp;controls=0&amp;start=0"
+                      frameborder="0" allowfullscreen=""></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-07a4">
+    <div class="u-clearfix u-sheet u-sheet-1">
+      <p class="u-text u-text-1">Web stranica izrađena za vrijeme pohađanja</p>
+      <p class="u-text u-text-2">
+        <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-1"
+          href="https://www.ferit.unios.hr/" target="_blank">Fakulteta elektrotehnike, računarstva i informacijskih
+          tehnologija</a>
+      </p>
+      <p class="u-text u-text-3">u Osijeku u sklopu kolegija</p>
+      <p class="u-text u-text-4">
+        <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-2"
+          href="https://www.ferit.unios.hr/upisi-i-studijski-programi/preddiplomski-strucni-studij#racunarstvo#SR601"
+          target="_blank">Multimedijska tehnika</a>
+      </p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
