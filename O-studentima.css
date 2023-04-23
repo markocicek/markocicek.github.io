@@ -1,5 +1,5 @@
  .u-section-1 {
-  background-image: linear-gradient(white, #1b6d00);
+  background-image: linear-gradient(#2db600, #1b6d00);
 }
 
 .u-section-1 .u-sheet-1 {
@@ -18,6 +18,11 @@
 
 .u-section-2 .u-layout-cell-1 {
   min-height: 655px;
+  --animation-custom_in-translate_x: -200px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
 }
 
 .u-section-2 .u-container-layout-1 {
@@ -43,6 +48,11 @@
 .u-section-2 .u-image-1 {
   width: 248px;
   height: 248px;
+  --animation-custom_in-translate_x: 300px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
   margin: 197px auto 0;
 }
 
@@ -141,11 +151,21 @@
 .u-section-3 .u-image-1 {
   width: 248px;
   height: 248px;
+  --animation-custom_in-translate_x: -200px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
   margin: 197px auto 0;
 }
 
 .u-section-3 .u-layout-cell-2 {
   min-height: 655px;
+  --animation-custom_in-translate_x: 300px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
 }
 
 .u-section-3 .u-container-layout-2 {

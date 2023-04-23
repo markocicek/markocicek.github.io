@@ -42228,6 +42228,10 @@ a.u-link.u-text-hover-grey-90:hover {
 
 
 /*end-variables sitestylecss*/
+ .u-header {
+  background-image: none;
+}
+
 .u-header .u-sheet-1 {
   min-height: 113px;
 }
@@ -42239,7 +42243,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-menu-1 {
-  margin: 0 auto;
+  margin: 17px auto 0;
 }
 
 .u-header .u-nav-1 {

@@ -1,5 +1,5 @@
  .u-section-1 {
-  background-image: linear-gradient(#f2f2f2, #1b6d00);
+  background-image: linear-gradient(#2db600, #1b6d00);
 }
 
 .u-section-1 .u-sheet-1 {
@@ -12,6 +12,11 @@
 
 .u-section-1 .u-layout-cell-1 {
   min-height: 540px;
+  --animation-custom_in-translate_x: -200px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
 }
 
 .u-section-1 .u-container-layout-1 {
@@ -41,6 +46,11 @@
 
 .u-section-1 .u-image-1 {
   height: 421px;
+  --animation-custom_in-translate_x: -200px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
   margin: 0;
 }
 
@@ -139,12 +149,22 @@
 .u-section-2 .u-text-1 {
   font-weight: 700;
   width: 803px;
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: -300px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 0.3;
   margin: 60px auto 0;
 }
 
 .u-section-2 .u-text-2 {
   width: 803px;
   font-size: 1.125rem;
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: -300px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 0.3;
   margin: 28px auto 0;
 }
 
@@ -153,6 +173,11 @@
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 0;
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: -300px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 0.3;
 }
 
 .u-section-2 .u-text-4 {
@@ -161,6 +186,11 @@
   margin-right: auto;
   margin-bottom: 60px;
   font-size: 1.125rem;
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: -300px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 0.3;
 }
 
 @media (max-width: 991px) {
@@ -240,6 +270,11 @@
   height: 325px;
   width: 579px;
   box-shadow: 5px 5px 20px 2px rgba(0,0,0,0.4);
+  --animation-custom_in-translate_x: -200px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
   margin: 29px -24px 0 auto;
 }
 
@@ -263,6 +298,11 @@
   height: 325px;
   width: 578px;
   box-shadow: 5px 5px 20px 2px rgba(0,0,0,0.4);
+  --animation-custom_in-translate_x: 300px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
   margin: 29px -23px 0 auto;
 }
 
