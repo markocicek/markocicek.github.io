@@ -26,7 +26,7 @@
 }
 
 .u-section-2 .u-sheet-1 {
-  min-height: 1105px;
+  min-height: 1468px;
 }
 
 .u-section-2 .u-list-1 {
@@ -35,13 +35,14 @@
 }
 
 .u-section-2 .u-repeater-1 {
-  grid-gap: 10px 10px;
-  grid-template-columns: calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px);
-  min-height: 259px;
+  grid-template-columns: repeat(2, calc(50% - 5px));
+  min-height: 324px;
+  grid-auto-columns: calc(50% - 5px);
+  grid-gap: 10px;
 }
 
 .u-section-2 .u-image-1 {
-  background-image: url("images/tennis.gif");
+  background-image: url("https://assets.nicepagecdn.com/91173ed8/4905102/images/tennis.gif");
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
@@ -54,7 +55,7 @@
 }
 
 .u-section-2 .u-image-2 {
-  background-image: url("images/football.gif");
+  background-image: url("https://assets.nicepagecdn.com/91173ed8/4905102/images/football.gif");
   background-position: 50% 50%;
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 0px;
@@ -67,27 +68,13 @@
   padding: 10px;
 }
 
-.u-section-2 .u-image-3 {
-  background-image: url("images/handball.gif");
-  background-position: 50% 50%;
-  --animation-custom_in-translate_x: 0px;
-  --animation-custom_in-translate_y: 0px;
-  --animation-custom_in-opacity: 0;
-  --animation-custom_in-rotate: 0deg;
-  --animation-custom_in-scale: 0.3;
-}
-
-.u-section-2 .u-container-layout-3 {
-  padding: 10px;
-}
-
 .u-section-2 .u-layout-wrap-1 {
-  margin: 94px 0 100px;
+  margin: 42px 0 0;
 }
 
-.u-section-2 .u-image-4 {
-  min-height: 315px;
-  background-image: url("images/2c2a7c966b9e7a561b16f9ccec0ab791ca1bfcbab6d58e188a50042148bf90a7601fe8b24804e028d6dc483d335c22d4a960117b85124f4cfe6104_1280.jpg");
+.u-section-2 .u-image-3 {
+  min-height: 327px;
+  background-image: url("https://assets.nicepagecdn.com/91173ed8/4905102/images/2c2a7c966b9e7a561b16f9ccec0ab791ca1bfcbab6d58e188a50042148bf90a7601fe8b24804e028d6dc483d335c22d4a960117b85124f4cfe6104_1280.jpg");
   background-position: 50% 50%;
   --animation-custom_in-translate_x: -200px;
   --animation-custom_in-translate_y: 0px;
@@ -96,7 +83,7 @@
   --animation-custom_in-scale: 1;
 }
 
-.u-section-2 .u-container-layout-4 {
+.u-section-2 .u-container-layout-3 {
   padding: 30px;
 }
 
@@ -104,7 +91,7 @@
   min-height: 327px;
 }
 
-.u-section-2 .u-container-layout-5 {
+.u-section-2 .u-container-layout-4 {
   padding: 30px 60px;
 }
 
@@ -118,10 +105,10 @@
 }
 
 .u-section-2 .u-layout-cell-3 {
-  min-height: 315px;
+  min-height: 331px;
 }
 
-.u-section-2 .u-container-layout-6 {
+.u-section-2 .u-container-layout-5 {
   padding: 30px 60px;
 }
 
@@ -133,9 +120,9 @@
   margin: 69px 0 0;
 }
 
-.u-section-2 .u-image-5 {
+.u-section-2 .u-image-4 {
   min-height: 315px;
-  background-image: url("images/1dca03b91f191d635b23bf97ff25e91bc5a0bc391beaac751c8c2a9ef5e01e6399984e4900d327239a6bd28e7f7c487da630e3ac4ae84f4fdef4da_1280.jpg");
+  background-image: url("https://assets.nicepagecdn.com/91173ed8/4905102/images/1dca03b91f191d635b23bf97ff25e91bc5a0bc391beaac751c8c2a9ef5e01e6399984e4900d327239a6bd28e7f7c487da630e3ac4ae84f4fdef4da_1280.jpg");
   background-position: 50% 50%;
   --animation-custom_in-translate_x: 300px;
   --animation-custom_in-translate_y: 0px;
@@ -144,17 +131,57 @@
   --animation-custom_in-scale: 1;
 }
 
-.u-section-2 .u-container-layout-7 {
+.u-section-2 .u-container-layout-6 {
   padding: 30px;
+}
+
+.u-section-2 .u-list-2 {
+  margin: 40px 0 60px;
+}
+
+.u-section-2 .u-repeater-2 {
+  grid-template-columns: repeat(2, calc(50% - 5px));
+  min-height: 324px;
+  grid-auto-columns: calc(50% - 5px);
+  grid-gap: 10px;
+}
+
+.u-section-2 .u-image-5 {
+  background-image: url("https://assets.nicepagecdn.com/91173ed8/4905102/images/BasketballAnimation.gif");
+  background-position: 50% 50%;
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 0.3;
+}
+
+.u-section-2 .u-container-layout-7 {
+  padding: 10px;
+}
+
+.u-section-2 .u-image-6 {
+  background-image: url("https://assets.nicepagecdn.com/91173ed8/4905102/images/handball.gif");
+  background-position: 50% 50%;
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 0.3;
+}
+
+.u-section-2 .u-container-layout-8 {
+  padding: 10px;
 }
 
 @media (max-width: 1199px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 993px;
+    min-height: 1971px;
   }
 
   .u-section-2 .u-repeater-1 {
-    min-height: 213px;
+    grid-template-columns: calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px);
+    min-height: 267px;
   }
 
   .u-section-2 .u-layout-wrap-1 {
@@ -162,26 +189,43 @@
     margin-left: initial;
   }
 
+  .u-section-2 .u-image-3 {
+    min-height: 315px;
+  }
+
   .u-section-2 .u-layout-cell-2 {
     min-height: 315px;
+  }
+
+  .u-section-2 .u-layout-cell-3 {
+    min-height: 315px;
+  }
+
+  .u-section-2 .u-list-2 {
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-2 .u-repeater-2 {
+    min-height: 267px;
   }
 }
 
 @media (max-width: 991px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 861px;
+    min-height: 1839px;
   }
 
   .u-section-2 .u-repeater-1 {
     grid-template-columns: calc(50% - 5px) calc(50% - 5px);
-    min-height: 503px;
+    grid-auto-columns: calc(100% - 0px);
   }
 
   .u-section-2 .u-layout-cell-2 {
     min-height: 100px;
   }
 
-  .u-section-2 .u-container-layout-5 {
+  .u-section-2 .u-container-layout-4 {
     padding-left: 30px;
     padding-right: 30px;
   }
@@ -190,19 +234,30 @@
     min-height: 100px;
   }
 
-  .u-section-2 .u-container-layout-6 {
+  .u-section-2 .u-container-layout-5 {
     padding-left: 30px;
     padding-right: 30px;
+  }
+
+  .u-section-2 .u-repeater-2 {
+    grid-template-columns: 100%;
+    grid-auto-columns: calc(100% - 0px);
   }
 }
 
 @media (max-width: 767px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 1261px;
+    min-height: 2239px;
   }
 
   .u-section-2 .u-repeater-1 {
     grid-template-columns: 100%;
+    grid-auto-columns: 100%;
+  }
+
+  .u-section-2 .u-container-layout-3 {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .u-section-2 .u-container-layout-4 {
@@ -220,14 +275,13 @@
     padding-right: 10px;
   }
 
-  .u-section-2 .u-container-layout-7 {
-    padding-left: 10px;
-    padding-right: 10px;
+  .u-section-2 .u-repeater-2 {
+    grid-auto-columns: 100%;
   }
 }
 
 @media (max-width: 575px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 1039px;
+    min-height: 2017px;
   }
 }
